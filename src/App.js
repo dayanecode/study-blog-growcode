@@ -68,10 +68,12 @@ function App() {
 
 
       <section className='fullscreen-post'>
-        <button className='btn second'>Fechar</button>
-          <h1> Título do Post</h1>
-          <p> Conteúdo do Post</p>
-        </section>
+        <button className='btn secondary post-close'>Fechar</button>
+          <div className='post-content'>
+            <h1> Título do Post</h1>
+            <p> Conteúdo do Post</p>
+          </div>
+      </section>
 
 
     </div>
